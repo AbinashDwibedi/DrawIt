@@ -73,7 +73,9 @@ function end(event) {
     index += 1;
   }
 }
-
+function selectColor(element) {
+    line_color = element.style.backgroundColor;
+  }
 function undoLast() {
   if (index <= 0) {
     clearCanvas();
